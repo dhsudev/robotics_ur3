@@ -1,16 +1,41 @@
-# robotics_ur3
-Exercices to learn some features of ur3 robots
+# 🤖 robotics_ur3
+A collection of exercises and projects to explore the features of UR3 robots.
 
-## Some basic programs
-In this folder you can check some of my first programs to get to know with the robot and it's functions
-## Comunicating with the robot
-Communicating with the robot from other devices it's such a great functionality to implement and learn. I've tried some protocols to get to know with them and be able to decide in a furute project which one i want to use.
-### Socket
-I've implemented a socket server in java and a program in the robot to connect to the server. In this exercice, the robot sends the current position to the server and waits for a response of a new pose.
-### XML-RPC
-This is very similar to the last exercice but using the XML-RPC protocol
-### Investigation project
-To be continued...
-## URCaps
-### Starting with URCaps
-### My own URCap for a custom grip
+---
+
+## 📂 Basic Programs
+In this folder, you'll find some of my initial programs to familiarize myself with the robot and its core functions.
+
+---
+
+## 🌐 Communicating with the Robot
+Learning to communicate with the robot from external devices. This section explores different protocols, helping me understand their features and decide which to use in future projects.
+
+### 🔌 Socket Communication
+A socket server was implemented in **Java**, and a corresponding program was written for the robot to connect to this server.  
+- **Process:** The robot sends its current position to the server and awaits a response with a new pose. Then it moves to that pose and returns to the previous one.
+- This exercise helped deepen my understanding of network-based robot communication.
+
+### 📡 XML-RPC
+This exercise is similar to the socket implementation but utilizes the **XML-RPC protocol**.  
+- It provides a different perspective on remote procedure calls and adds variety to the communication options tested.
+
+### 🕵️‍♂️ Investigation Project
+**Work in progress...**  
+
+---
+
+## 🛠️ URCaps Development
+URCaps are a powerful way to customize the functionality of UR robots. This section documents my initial experiences and experiments.
+
+### 🚀 Getting Started with URCaps
+Basic exploration and understanding of URCaps.
+
+### ✨ My Custom URCap for a Custom Grip
+A custom URCap was developed to control a specialized gripper, tailored for specific tasks.
+
+---
+
+### 📜 Notes
+This repository is a personal learning journey with UR3 robots. Contributions, suggestions, and discussions are always welcome!
+
