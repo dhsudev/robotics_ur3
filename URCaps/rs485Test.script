@@ -1,0 +1,8 @@
+def read_serial_data():
+  set_tool_communication(type="rs485", baudrate=115200, parity="n", stopbits=1)
+  while (True):
+    data = read_tool_communication()
+    if (data != ""):
+      textmsg("Received: ", data)
+    sleep(0.1)
+end
